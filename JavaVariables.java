@@ -55,8 +55,11 @@ Where type is one of Java's types (such as int or String),
     public static void main (String [] args){
 
 //        constant  int  x = 20;
-//        x = 56;   we can do this 
-
+//        x = 56;   we can do this
+        double sum = 19.9999999;
+        double sum2 = 19.9966;
+        double sum3 = sum * sum;
+ System.out.print(sum3);
 
     }
 
